@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+body {
+    width: 100%;
+}
+
+#navbar {
+    height: 69px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background-color: black;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-links {
+    position: fixed;
+    right: 10px;
+    display: inline;
+}
+
+.container {
+    margin: 69px 20px 0 20px;
+}
+
+img {
+    max-width: 100vw;
+}
+
+.hero-img {
+    width: 1200px;
+    margin: 0 20px;
+}
